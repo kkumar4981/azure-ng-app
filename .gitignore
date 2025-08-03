@@ -7,6 +7,11 @@
 /.angular/
 .angular/
 
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
 # Node modules and dependency files
 /node_modules/
 /package-lock.json
@@ -14,13 +19,50 @@
 
 # Environment files
 /.env
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
 
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+/.vs/azure-ng-app/FileContentIndex/b6f3d408-9ab2-4793-aa39-22792c3a11d3.vsidx
 # Angular CLI and build artefacts
 /.angular-cli.json
 /.ng/
 
 # TypeScript cache
 *.tsbuildinfo
+.vs/
+node_modules/
+dist/
 
 # Logs
 npm-debug.log*
