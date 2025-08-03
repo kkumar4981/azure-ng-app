@@ -41,3 +41,8 @@ testem.log
 .DS_Store
 Thumbs.db
 /.vs/azure-ng-app/FileContentIndex/b6f3d408-9ab2-4793-aa39-22792c3a11d3.vsidx
+
+.vs/
+node_modules/
+dist/
+
